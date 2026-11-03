@@ -30,7 +30,7 @@ streamlit run chatapp.py
 1. Upload one or more PDFs in the sidebar.
 2. Click **Submit & Process**. The app extracts and organizes the PDF text locally so it can be searched; this step does not create an AI-written review or send the PDF to Gemini.
 3. Ask a question about the uploaded PDF. The app searches its text and shows the most relevant passages with the source filename and page number.
-4. For the bundled *Augmented LLMs.pdf*, five prepared questions return concise answers based on page 1. Other questions return matching text from the PDF rather than a generated summary.
+4. The app returns relevant text from the PDF rather than generating an AI-written summary. For the bundled *Augmented LLMs.pdf*, five prepared questions also have concise answers with a page citation.
 5. Use **Download Augmented LLMs PDF** in the sidebar to download the sample PDF.
 
 Scanned/image-only PDFs may not contain extractable text and therefore may not be searchable.
