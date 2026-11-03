@@ -4,12 +4,12 @@ A local Streamlit app for searching the contents of multiple PDF documents. PDF 
 
 ## Features
 
-- Upload and search one or more PDF files.
-- Find matching passages locally and display the source filename and page number.
-- Download the bundled `Augmented LLMs.pdf` from the app sidebar.
-- Answer five curated questions about the sample PDF with concise, page-cited explanations.
-
-The app returns relevant excerpts from the source PDFs rather than generating free-form answers with an LLM.
+- **Local PDF processing:** Extracts and searches text on your computer without sending documents to Gemini or requiring an API key.
+- **Question-based passage search:** Ask a question and see the most relevant text found in the uploaded PDFs.
+- **Source references:** Each result includes the PDF filename and page number.
+- **Prepared sample answers:** Five questions about the bundled *Augmented LLMs.pdf* return concise answers cited to page 1.
+- **Sample PDF download:** Download *Augmented LLMs.pdf* directly from the app sidebar.
+- **Honest answers:** General questions return relevant excerpts from the document, not AI-generated reviews or summaries.
 
 ## Installation
 
